@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.ff.kafkaproj.EventM.service.KafkaProducerService;
 
 @RestController
-@RequestMapping("/atmevents")
+@RequestMapping("/events")
 public class ATMEventController {
 
     @Autowired
